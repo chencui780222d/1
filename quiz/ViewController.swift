@@ -38,18 +38,51 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         Questions = [Question(Question: "when Juses born?", Answers: ["Chrismas","Thanks giving", "Easten day", "Remember day"], Answer: 0),
-                     Question(Question: "when Juses dead?", Answers: ["Chrismas","Thanks giving", "Easten day", "Remember day"], Answer: 2),
-                     Question(Question: "when Juses start to preach?", Answers: ["33","20", "30", "40"], Answer: 2),
-                     Question(Question: "how many students Juses have?", Answers: ["9","10", "11", "12"], Answer: 3),
-                     Question(Question: "who is Juses mother?", Answers: ["Christina","Bob", "Marrie", "Joan"], Answer: 2),
-                     Question(Question: "where did Juses born?", Answers: ["Jelusalum","Jialili", "Youda", "Boliheng"], Answer: 3),
-                     Question(Question: "Whose wife turn into pillar of SALT?", Answers: ["Juses","Abraham", "Soloman", "Lot"], Answer: 3),
-                     Question(Question: "Why God ask Abraham to kill Isaac?", Answers: ["For fun","It is a test", "show Abraham's believe", "God need blood"], Answer: 1)
-        
-        
-        
-        
-        
+            
+            Question(Question: "when Juses dead?", Answers: ["Chrismas","Thanks giving", "Easten day", "Remember day"], Answer: 2),
+            
+            Question(Question: "when Juses start to preach?", Answers: ["33","20", "30", "40"], Answer: 2),
+            
+            Question(Question: "how many students Juses have?", Answers: ["9","10", "11", "12"], Answer: 3),
+            
+            Question(Question: "who is Juses mother?", Answers: ["Christina","Bob", "Marrie", "Joan"], Answer: 2),
+            
+            Question(Question: "where did Juses born?", Answers: ["Jelusalum","Jialili", "Youda", "Boliheng"], Answer: 3),
+            
+            Question(Question: "Whose wife turn into pillar of SALT?", Answers: ["Juses","Abraham", "Soloman", "Lot"], Answer: 3),
+            
+            Question(Question: "Why God ask Abraham to kill Isaac?", Answers: ["For fun","It is a test", "show Abraham's believe", "God need blood"], Answer: 1),
+            
+            Question(Question: "How many books are in the Bible?", Answers: ["63","64", "65", "66"], Answer: 3),
+            
+            Question(Question: "Who's shepherd boy became the king?", Answers: ["David","Samuer", "Peter", "John"], Answer: 0),
+            
+            Question(Question: "How many brothers did Joseph have?", Answers: ["9","10", "11", "12"], Answer: 2),
+            
+            Question(Question: "Who were the parents of Cain and Abel?", Answers: ["Joseph and Marrie","Adam and Eve", "Abraham and Yijie", "Isaac and Libaijia"], Answer: 1),
+            
+            Question(Question: "what two different bird Noah sent out?", Answers: ["Raven and Dove","eagle and Dove", "eagle and Raven", "no bird"], Answer: 0),
+            
+            Question(Question: "what sign did God give after flood?", Answers: ["sun","moon", "cloud", "Rainbow"], Answer: 3),
+            
+            Question(Question: "Who did Boaz marry?", Answers: ["Ruth","Marrie", "Joan", "libaijia"], Answer: 0),
+            
+            Question(Question: "Who is Abraham's nephew travel with him?", Answers: ["Lot","David", "John", "Peter"], Answer: 0),
+            
+            Question(Question: "What was the name of Joseph’s baby brother?", Answers: ["Juses","Livid", "David", "Benjamin"], Answer: 3),
+            
+            Question(Question: "Who found baby Moses in the river?", Answers: ["Moses' sister","Pharaoh’s daughter", "Juese's sister", "Marrie's daughter"], Answer: 1),
+            
+            Question(Question: "What was the name of the mountain where Moses was given the 10 Commandments?", Answers: ["Mt. Sinai","Mt. Rockey", "Mt. Lawranse", "Mt. Helie"], Answer: 0),
+            
+            Question(Question: "What did King Solomon ask God to give him?", Answers: ["money","victory", "long live life", "Wisdom"], Answer: 3),
+            
+            Question(Question: "What river was Jesus baptized in?", Answers: ["Simon Fasher River","St lawrence River", "Jordan River", "Jilun River"], Answer: 2),
+            
+            Question(Question: "What was the first miracle of Jesus recorded in the Bible?", Answers: ["Heal the blind people","Turn the water to blood", "ask the ghost get off", "Turning the water into wine."], Answer: 3),
+            
+            Question(Question: "What kind of work did Zacchaeus do?", Answers: ["Tax collector","Finisher man", "Doctor", "Homeless"], Answer: 0),
+          
         
         ]
         
