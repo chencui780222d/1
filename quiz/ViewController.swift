@@ -8,7 +8,21 @@
 
 import UIKit
 
+struct Question{
+    var Question : String!
+    var Answers : [String]!
+    var Answer : Int!
+    
+}
+
 class ViewController: UIViewController {
+    
+    //this is a good example for the game
+    
+    @IBOutlet weak var QLabel: UILabel!
+    
+    @IBOutlet var Buttons: [UIButton]!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
