@@ -123,7 +123,7 @@ class ViewController: UIViewController {
             QtextView.text = Questions[randomIndex].Question
             
             //print(QtextView.text)
-            print(Questions[randomIndex])
+            //print(Questions[randomIndex])
             
             AnswerNumber = Questions[randomIndex].Answer
         
