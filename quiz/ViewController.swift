@@ -40,6 +40,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        
+        
+        
+        
+        
         Questions = [Question(Question: "when Juses born?", Answers: ["Chrismas","Thanks giving", "Easten day", "Remember day"], Answer: 0),
             
             Question(Question: "when Juses dead?", Answers: ["Chrismas","Thanks giving", "Easten day", "Remember day"], Answer: 2),
@@ -84,10 +89,16 @@ class ViewController: UIViewController {
             
             Question(Question: "What was the first miracle of Jesus recorded in the Bible?", Answers: ["Heal the blind people","Turn the water to blood", "ask the ghost get off", "Turning the water into wine."], Answer: 3),
             
-            Question(Question: "What kind of work did Zacchaeus do?", Answers: ["Tax collector","Finisher man", "Doctor", "Homeless"], Answer: 0),
+            Question(Question: "What kind of work did Zacchaeus do?", Answers: ["Tax collector","Finisher man", "Doctor", "Homeless"], Answer: 0)
           
         
         ]
+        
+       // let array = ["Frodo", "sam", "wise", "gamgee"]
+        let randomIndex = Int(arc4random_uniform(UInt32(Questions.count)))
+        
+        print(Questions[randomIndex])
+        
         
         PickQuestion()
     }
