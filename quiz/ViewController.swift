@@ -95,9 +95,9 @@ class ViewController: UIViewController {
         ]
         
        // let array = ["Frodo", "sam", "wise", "gamgee"]
-        let randomIndex = Int(arc4random_uniform(UInt32(Questions.count)))
+       // let randomIndex = Int(arc4random_uniform(UInt32(Questions.count)))
         
-        print(Questions[randomIndex])
+        //print(Questions[randomIndex])
         
         
         PickQuestion()
@@ -114,18 +114,26 @@ class ViewController: UIViewController {
         
         if Questions.count > 0 {
             
-            QNumber = 0
+            let randomIndex = Int(arc4random_uniform(UInt32(Questions.count)))
+            
+            //QNumber = 0
+            
            // QLabel.text = Questions[QNumber].Question
             
-            QtextView.text = Questions[QNumber].Question
+            QtextView.text = Questions[randomIndex].Question
             
-            AnswerNumber = Questions[QNumber].Answer
+            //print(QtextView.text)
+            print(Questions[randomIndex])
+            
+            AnswerNumber = Questions[randomIndex].Answer
         
             for i in 0..<Buttons.count{
-                Buttons[i].setTitle(Questions[QNumber].Answers[i], forState: UIControlState.Normal)
+                
+                Buttons[i].setTitle(Questions[randomIndex].Answers[i], forState: UIControlState.Normal)
+                
             }
             
-            Questions.removeAtIndex(QNumber)
+           // Questions.removeAtIndex(QNumber)
             
             
             
