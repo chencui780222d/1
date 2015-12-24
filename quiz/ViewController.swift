@@ -133,7 +133,7 @@ class ViewController: UIViewController {
                 
             }
             
-            Questions.removeAtIndex(randomIndex)
+           // Questions.removeAtIndex(QNumber)
             
             
             
