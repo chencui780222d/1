@@ -37,9 +37,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        Questions = [Question(Question: "when Juses born?", Answers: ["Chrismas","Easten day", "Fuhuo jie", "Qingming jie"], Answer: 0),
-                     Question(Question: "when Juses dead?", Answers: ["Chrismas","Easten day", "Fuhuo jie", "Qingming jie"], Answer: 2),
-                     Question(Question: "when Juses start to chuanjiao?", Answers: ["33","20", "30", "40"], Answer: 2),
+        Questions = [Question(Question: "when Juses born?", Answers: ["Chrismas","Thanks giving", "Easten day", "Remember day"], Answer: 0),
+                     Question(Question: "when Juses dead?", Answers: ["Chrismas","Thanks giving", "Easten day", "Remember day"], Answer: 2),
+                     Question(Question: "when Juses start to preach?", Answers: ["33","20", "30", "40"], Answer: 2),
                      Question(Question: "how many students Juses have?", Answers: ["9","10", "11", "12"], Answer: 3),
                      Question(Question: "who is Juses mother?", Answers: ["Christina","Bob", "Marrie", "Joan"], Answer: 2),
                      Question(Question: "where did Juses born?", Answers: ["Jelusalum","Jialili", "Youda", "Boliheng"], Answer: 3),
