@@ -56,19 +56,19 @@ class ViewController: UIViewController {
             
             Question(Question: "How many books are in the Bible?", Answers: ["63","64", "65", "66"], Answer: 3),
             
-            Question(Question: "Who's shepherd boy became the king?", Answers: ["David","Samuer", "Peter", "John"], Answer: 0),
+            Question(Question: "What was the name of the shepherd boy who became the second king in Israel?", Answers: ["David","Samuer", "Peter", "John"], Answer: 0),
             
             Question(Question: "How many brothers did Joseph have?", Answers: ["9","10", "11", "12"], Answer: 2),
             
             Question(Question: "Who were the parents of Cain and Abel?", Answers: ["Joseph and Marrie","Adam and Eve", "Abraham and Yijie", "Isaac and Libaijia"], Answer: 1),
             
-            Question(Question: "what two different bird Noah sent out?", Answers: ["Raven and Dove","eagle and Dove", "eagle and Raven", "no bird"], Answer: 0),
+            Question(Question: "Noah sent out 2 different kinds of birds from the Ark. What were they?", Answers: ["Raven and Dove","eagle and Dove", "eagle and Raven", "no bird"], Answer: 0),
             
-            Question(Question: "what sign did God give after flood?", Answers: ["sun","moon", "cloud", "Rainbow"], Answer: 3),
+            Question(Question: "After the flood, what sign did God give that He would not destroy the earth with a flood again?", Answers: ["sun","moon", "cloud", "Rainbow"], Answer: 3),
             
             Question(Question: "Who did Boaz marry?", Answers: ["Ruth","Marrie", "Joan", "libaijia"], Answer: 0),
             
-            Question(Question: "Who is Abraham's nephew travel with him?", Answers: ["Lot","David", "John", "Peter"], Answer: 0),
+            Question(Question: "Abraham traveled with his nephew. What was his nephew’s name?", Answers: ["Lot","David", "John", "Peter"], Answer: 0),
             
             Question(Question: "What was the name of Joseph’s baby brother?", Answers: ["Juses","Livid", "David", "Benjamin"], Answer: 3),
             
