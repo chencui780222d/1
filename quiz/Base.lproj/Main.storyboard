@@ -93,6 +93,7 @@
                     </view>
                     <connections>
                         <outlet property="QLabel" destination="qB5-wo-4xz" id="idc-yh-SVU"/>
+                        <outlet property="QtextView" destination="wma-Js-8jU" id="Vg2-cK-wrl"/>
                         <outlet property="answerLabel" destination="xh5-5i-oU7" id="Q8B-fN-7IA"/>
                         <outletCollection property="Buttons" destination="3ca-nD-pEc" collectionClass="NSMutableArray" id="9Qq-3c-cAg"/>
                         <outletCollection property="Buttons" destination="Ulh-cH-g73" collectionClass="NSMutableArray" id="F2a-yC-4FV"/>

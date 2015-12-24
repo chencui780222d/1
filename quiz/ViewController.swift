@@ -19,12 +19,13 @@ class ViewController: UIViewController {
     
     //this is a good example for the game
     
-    @IBOutlet weak var QLabel: UILabel!
+   // @IBOutlet weak var QLabel: UILabel!
     
     @IBOutlet var Buttons: [UIButton]!
     
     @IBOutlet weak var answerLabel: UILabel!
     
+    @IBOutlet weak var QtextView: UITextView!
     
     var Questions = [Question]()
     
@@ -94,16 +95,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    //this is for the test too 
-    
-    //this is for the github.
+
     
     func PickQuestion(){
         
         if Questions.count > 0 {
             
             QNumber = 0
-            QLabel.text = Questions[QNumber].Question
+           // QLabel.text = Questions[QNumber].Question
+            
+            QtextView.text = Questions[QNumber].Question
             
             AnswerNumber = Questions[QNumber].Answer
         
