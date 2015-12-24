@@ -43,6 +43,13 @@ class ViewController: UIViewController {
                      Question(Question: "how many students Juses have?", Answers: ["9","10", "11", "12"], Answer: 3),
                      Question(Question: "who is Juses mother?", Answers: ["Christina","Bob", "Marrie", "Joan"], Answer: 2),
                      Question(Question: "where did Juses born?", Answers: ["Jelusalum","Jialili", "Youda", "Boliheng"], Answer: 3),
+                     Question(Question: "Whose wife turn into pillar of SALT?", Answers: ["Juses","Abraham", "Soloman", "Lot"], Answer: 3),
+                     Question(Question: "Why God ask Abraham to kill Isaac?", Answers: ["For fun","It is a test", "show Abraham's believe", "God need blood"], Answer: 1)
+        
+        
+        
+        
+        
         
         ]
         
